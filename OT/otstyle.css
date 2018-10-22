@@ -1,0 +1,25 @@
+#firstback {
+	width: 100%;
+	height: 100vh;
+	background-image: url("./img/3.jpg");
+
+  	background-repeat: no-repeat; 
+  	background-size: cover; 
+
+}
+
+.bg-dark {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+	text-shadow: 2px 2px 2px 2px;
+
+}
+
+#innercontent {
+	position: relative;
+	top: 20vw;
+	left: 5vw;
+	width: 30vw;
+	height: 15vw;
+	/* border: 3px solid red; */
+	color: white;
+}
