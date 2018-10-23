@@ -54,6 +54,7 @@
   font-size: 68px;
   line-height: 42px;
   position: absolute;
+  bottom: 120px;
   display: inline-block; }
 
 .carousel .carousel-indicators {
@@ -87,6 +88,19 @@
   src: url("font/AgencyFB-Reg.eot?#iefix") format("embedded-opentype"), url("font/AgencyFB-Reg.woff2") format("woff2"), url("font/AgencyFB-Reg.woff") format("woff"), url("font/AgencyFB-Reg.svg#AgencyFB-Reg") format("svg"); }
 body {
   font-family: "Agency FB"; }
+
+#news {
+  background-color: black;
+  color: white; }
+  #news .newsfeed {
+    width: 80%;
+    margin: auto; }
+  #news p {
+    font-size: 30px; }
+  #news .carousel-control-prev-icon {
+    font-size: 68px !important;
+    height: 68px;
+    line-height: 42px; }
 
 body {
   min-width: 320px; }
