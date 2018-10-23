@@ -1,3 +1,29 @@
+#hero {
+  height: 100vh;
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  text-shadow: 2px 2px 2px 2px; }
+
+#innercontent {
+  position: relative;
+  top: 20vw;
+  left: 5vw;
+  width: 500px;
+  height: 300px;
+  color: white; }
+
+#details {
+  max-width: 1200px;
+  margin: auto; }
+  #details img {
+    width: 100%;
+    border-radius: 15px; }
+
 #location {
   position: relative;
   text-shadow: 0 0 2px white; }
@@ -12,6 +38,7 @@
   left: 0;
   background: url("../img/location/code1.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   transition: background 4s; }
 
 #testimonials {
@@ -104,6 +131,9 @@ body {
 
 body {
   min-width: 320px; }
+
+p {
+  font-size: 22px; }
 
 #team .teamImg {
   width: 128px;
