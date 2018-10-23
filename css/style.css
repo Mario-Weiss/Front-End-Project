@@ -1,13 +1,15 @@
+@font-face {
+  font-family: "Agency FB";
+  src: url("font/AgencyFB-Reg.eot");
+  src: url("font/AgencyFB-Reg.eot?#iefix") format("embedded-opentype"), url("font/AgencyFB-Reg.woff2") format("woff2"), url("font/AgencyFB-Reg.woff") format("woff"), url("font/AgencyFB-Reg.svg#AgencyFB-Reg") format("svg"); }
+body {
+  font-family: "Agency FB"; }
+
 #hero {
   height: 100vh;
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
+  background: url("../img/bg-hero.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed; }
-
-.bg-dark {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  text-shadow: 2px 2px 2px 2px; }
 
 #innercontent {
   position: relative;
@@ -17,18 +19,28 @@
   height: 300px;
   color: white; }
 
-#details {
-  max-width: 1200px;
-  margin: auto; }
-  #details img {
-    width: 100%;
+#course_content .myminwidth {
+  min-width: 220px; }
+#course_content img {
+  width: 200px; }
+
+#course_details {
+  margin: auto;
+  background: #fef0f0; }
+  #course_details img {
     border-radius: 15px; }
 
-#location {
+#trainers .teamImg {
+  width: 128px;
+  border-radius: 100%; }
+#trainers .col-6, #trainers .col-12 {
+  min-width: 160px; }
+
+#course_space {
   position: relative;
   text-shadow: 0 0 2px white; }
 
-#location-img {
+#course_space_img {
   z-index: -1;
   opacity: 0.2;
   width: 100%;
@@ -36,16 +48,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: url("../img/location/code1.jpg") no-repeat center center;
+  background: url("../img/course_space/code1.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   transition: background 4s; }
 
 #testimonials {
-  background-image: url("../img/bg-architecture.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
+  background: url("../img/bg-architecture.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .col-center {
   margin: 0 auto;
@@ -62,7 +73,10 @@
 .carousel .item .img-box {
   width: 135px;
   height: 135px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%; }
 
 .carousel .img-box img {
   width: 100%;
@@ -83,6 +97,14 @@
   position: absolute;
   bottom: 120px;
   display: inline-block; }
+
+.carousel-control-prev i {
+  position: absolute;
+  left: 20px !important; }
+
+.carousel-control-next i {
+  position: absolute;
+  right: 20px !important; }
 
 .carousel .carousel-indicators {
   bottom: -40px; }
@@ -109,33 +131,33 @@
   width: 80%;
   margin: auto; }
 
-@font-face {
-  font-family: "Agency FB";
-  src: url("font/AgencyFB-Reg.eot");
-  src: url("font/AgencyFB-Reg.eot?#iefix") format("embedded-opentype"), url("font/AgencyFB-Reg.woff2") format("woff2"), url("font/AgencyFB-Reg.woff") format("woff"), url("font/AgencyFB-Reg.svg#AgencyFB-Reg") format("svg"); }
-body {
-  font-family: "Agency FB"; }
-
 #news {
   background-color: black;
-  color: white; }
+  color: white;
+  height: auto; }
   #news .newsfeed {
     width: 80%;
     margin: auto; }
   #news p {
-    font-size: 30px; }
-  #news .carousel-control-prev-icon {
-    font-size: 68px !important;
-    height: 68px;
-    line-height: 42px; }
+    font-size: 24px; }
+  #news img, #news h1 {
+    padding-bottom: 20px; }
+  #news img {
+    width: 100%;
+    object-fit: cover;
+    text-align: center; }
 
 body {
   min-width: 320px; }
 
-#team .teamImg {
-  width: 128px;
-  border-radius: 100%; }
-#team .col-6, #team .col-12 {
-  min-width: 160px; }
+p {
+  font-size: 26px; }
+
+h1 {
+  font-size: 56px; }
+
+.white {
+  color: white;
+  text-shadow: 1px 1px 1px black, -1px -1px 1px black, 0 0 5px black; }
 
 /*# sourceMappingURL=style.css.map */

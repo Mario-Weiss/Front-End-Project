@@ -1,8 +1,7 @@
 #testimonials
-	background-image: url("../img/bg-architecture.jpg")
-	background-position: center
+	background: url("../img/bg-architecture.jpg") no-repeat center center
+	background-size: cover
 	background-attachment: fixed
-	background-repeat: no-repeat
  
 .col-center
 	margin: 0 auto
@@ -19,9 +18,9 @@
 	width: 135px
 	height: 135px
 	margin: 0 auto
-	//padding: 5px
-	//border: 1px solid #ddd
-	//border-radius: 50%
+	padding: 5px
+	border: 1px solid #ddd
+	border-radius: 50%
 .carousel .img-box img
 	width: 100%
 	height: 100%
@@ -45,9 +44,16 @@
 	line-height: 42px
 	position: absolute
 	bottom: 120px
+
 	display: inline-block
 	//color: rgba(0, 0, 0, 0.8)
 	//text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000
+.carousel-control-prev i 
+	position: absolute
+	left: 20px !important
+.carousel-control-next i 
+	position: absolute
+	right: 20px !important
 .carousel .carousel-indicators 
 	bottom: -40px
 .carousel-indicators li, .carousel-indicators li.active 
