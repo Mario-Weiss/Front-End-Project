@@ -11,18 +11,13 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
-#logo {
-  width: 200px; }
-
 #innercontent {
-  padding: 30vh 5vw 0 5vw;
+  position: relative;
+  top: 20vw;
+  left: 5vw;
+  width: 500px;
+  height: 300px;
   color: white; }
-  #innercontent h1 {
-    font-size: 64px; }
-  #innercontent p {
-    font-size: 32px; }
-  #innercontent button {
-    font-size: 26px; }
 
 #course_content .myminwidth {
   min-width: 220px; }
@@ -31,9 +26,26 @@ body {
 
 #course_details {
   margin: auto;
-  background: #fef0f0; }
+  background: #1A1B1F;
+  color: white;
+  font-size: 20px; }
   #course_details img {
-    border-radius: 15px; }
+    width: 50px;
+    height: 60px; }
+  #course_details ul {
+    list-style: none;
+    width: 70%;
+    padding: 0; }
+  #course_details li a {
+    display: block;
+    padding: 0.3em 0.3em 0.3em 2em;
+    padding: 0.4em;
+    margin: 0.5em 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red, rgba(0, 0, 0, 0));
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    list-style: inside; }
 
 #trainers .teamImg {
   width: 128px;
@@ -155,8 +167,8 @@ body {
 body {
   min-width: 320px; }
 
-p, a {
-  font-size: 22px; }
+p {
+  font-size: 26px; }
 
 h1 {
   font-size: 56px; }
@@ -164,11 +176,5 @@ h1 {
 .white {
   color: white;
   text-shadow: 1px 1px 1px black, -1px -1px 1px black, 0 0 5px black; }
-
-button:hover {
-  text-shadow: none !important; }
-
-footer {
-  min-height: 30vh; }
 
 /*# sourceMappingURL=style.css.map */
