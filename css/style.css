@@ -5,8 +5,20 @@
 body {
   font-family: "Agency FB"; }
 
+nav {
+  background: #1A1B1F; }
+  nav a {
+    color: grey; }
+  nav a:hover {
+    color: lavender; }
+  nav img {
+    color: red !important; }
+  nav .active {
+    color: red !important; }
+
 #hero {
   height: 100vh;
+  background: #1A1B1F;
   background: url("../img/bg-hero.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed; }
@@ -24,14 +36,17 @@ body {
   #innercontent button {
     font-size: 26px; }
 
-#course_content .myminwidth {
-  min-width: 220px; }
-#course_content img {
-  width: 200px; }
+#course_content {
+  background: lavender;
+  color: #1A1B1F; }
+  #course_content .myminwidth {
+    min-width: 220px; }
+  #course_content img {
+    width: 200px; }
 
 #course_details {
   margin: auto;
-  background: #1A1B1F;
+  background: #343A40;
   color: white;
   font-size: 20px; }
   #course_details img {
@@ -178,8 +193,8 @@ h1 {
   font-size: 56px; }
 
 .white {
-  color: white;
-  text-shadow: 1px 1px 1px black, -1px -1px 1px black, 0 0 5px black; }
+  color: lavender;
+  text-shadow: 1px 1px 1px #1A1B1F, -1px -1px 1px #1A1B1F, 0 0 5px #1A1B1F; }
 
 button:hover {
   text-shadow: none !important; }
