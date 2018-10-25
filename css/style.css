@@ -284,11 +284,11 @@ button:hover {
     color: lavender;
     background: #1A1B1F; }
 
-.btn-outline-dark {
+.btn-outline-light {
   color: lavender;
   background: #1A1B1F;
   border-color: lavender; }
-  .btn-outline-dark:hover {
+  .btn-outline-light:hover {
     color: #1A1B1F;
     background: lavender; }
 
