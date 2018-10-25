@@ -44,7 +44,14 @@ hr
 	float: right
 	margin-left: 15px
 	margin-bottom: 15px
-
+.text-light
+	color: $light !important
+.text-dark
+	color: $dark !important
+.bg-light
+	background: $light !important
+.bg-dark
+	background: $dark !important
 .white
 	color: $light
 	text-shadow: $shadow-dark
@@ -52,7 +59,6 @@ nav .active
 	color: $red !important 
 button:hover
 	text-shadow: none !important
-
 
 .nowrap
 	white-space: nowrap
@@ -66,7 +72,7 @@ button:hover
 		background: $dark
 .btn-outline-light
 	color: $light
-	background: none
+	background: $dark
 	border-color: $light
 	&:hover
 		color: $dark
