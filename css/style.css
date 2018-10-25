@@ -278,7 +278,7 @@ button:hover {
 
 .btn-outline-dark {
   color: #1A1B1F;
-  background: lavender;
+  background: none;
   border-color: #1A1B1F; }
   .btn-outline-dark:hover {
     color: lavender;
@@ -286,7 +286,7 @@ button:hover {
 
 .btn-outline-light {
   color: lavender;
-  background: #1A1B1F;
+  background: none;
   border-color: lavender; }
   .btn-outline-light:hover {
     color: #1A1B1F;
