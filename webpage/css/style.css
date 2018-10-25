@@ -52,7 +52,7 @@ body {
     color: red !important; }
 
 #logo {
-  width: 100px; }
+  width: 200px; }
 
 @media screen and (min-width: 768px) {
   #logo {
@@ -70,8 +70,8 @@ body {
       background: lavender; }
 
 #innercontent {
-  padding: 15vh 5vw 15vh 5vw;
-  margin-bottom: -50px;
+  padding: 20vh 5vw 20vh 5vw;
+  margin-bottom: -90px;
   color: white; }
   #innercontent h1 {
     font-size: 8vw; }
