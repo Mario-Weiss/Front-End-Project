@@ -14,19 +14,20 @@
 
 body
 	min-width: 320px
+	overflow-x: hidden
 
 p, a
-	font-size: 24px
+	font-size: 3vw
 h1
-	font-size: 56px
+	font-size: 6vw
 h2
-	font-size: 48px
+	font-size: 5.5vw
 h3
-	font-size: 42px
+	font-size: 4.5vw
 h4
-	font-size: 36px
+	font-size: 4vw
 h5
-	font-size: 30px
+	font-size: 3.5vw
 a
 	color: $grey
 	&:hover
@@ -44,17 +45,7 @@ hr
 	float: right
 	margin-left: 15px
 	margin-bottom: 15px
-.text-light
-	color: $light !important
-.text-dark
-	color: $dark !important
-.bg-light
-	background: $light !important
-.bg-dark
-	background: $dark !important
-.white
-	color: $light
-	text-shadow: $shadow-dark
+
 nav .active
 	color: $red !important 
 button:hover
@@ -63,17 +54,19 @@ button:hover
 .nowrap
 	white-space: nowrap
 
-.btn-outline-dark
-	color: $dark
-	background: none
-	border-color: $dark
-	&:hover
-		color: $light
-		background: $dark
-.btn-outline-light
-	color: $light
-	background: $dark
-	border-color: $light
-	&:hover
-		color: $dark
-		background: $light
+@media screen and (min-width: 768px)
+	p, a
+		font-size: 24px
+	h1
+		font-size: 56px
+	h2
+		font-size: 48px
+	h3
+		font-size: 42px
+	h4
+		font-size: 36px
+	h5
+		font-size: 30px
+@media screen and (max-width: 320px)
+	body
+		overflow-x: auto

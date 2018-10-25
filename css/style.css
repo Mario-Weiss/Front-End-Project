@@ -5,6 +5,38 @@
 body {
   font-family: "Agency FB"; }
 
+.text-light {
+  color: lavender !important; }
+
+.text-dark {
+  color: #1A1B1F !important; }
+
+.bg-light {
+  background: lavender !important; }
+
+.bg-dark {
+  background: #1A1B1F !important; }
+
+.white {
+  color: lavender;
+  text-shadow: 1px 1px 1px #1A1B1F, -1px -1px 1px #1A1B1F, 0 0 5px #1A1B1F; }
+
+.btn-outline-dark {
+  color: #1A1B1F;
+  background: none;
+  border-color: #1A1B1F; }
+  .btn-outline-dark:hover {
+    color: lavender;
+    background: #1A1B1F; }
+
+.btn-outline-light {
+  color: lavender;
+  background: #1A1B1F;
+  border-color: lavender; }
+  .btn-outline-light:hover {
+    color: #1A1B1F;
+    background: lavender; }
+
 #mainNav {
   background: #1A1B1F; }
   #mainNav a {
@@ -19,11 +51,16 @@ body {
   #mainNav .active {
     color: red !important; }
 
+#logo {
+  width: 100px; }
+
+@media screen and (min-width: 768px) {
+  #logo {
+    width: 200px; } }
 #hero {
-  height: 100vh;
+  height: auto;
   background: #1A1B1F url("../img/bg-hero.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
   #hero .btn-outline-light {
     color: lavender;
     background: none;
@@ -32,30 +69,47 @@ body {
       color: #1A1B1F;
       background: lavender; }
 
-#logo {
-  width: 200px; }
-
 #innercontent {
-  padding: 30vh 5vw 0 5vw;
+  padding: 15vh 5vw 15vh 5vw;
+  margin-bottom: -50px;
   color: white; }
   #innercontent h1 {
-    font-size: 80px; }
+    font-size: 8vw; }
   #innercontent p {
-    font-size: 48px; }
+    font-size: 5vw; }
   #innercontent button {
-    font-size: 36px; }
+    font-size: 4vw; }
 
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 100vh;
+    background-attachment: fixed; }
+
+  #innercontent {
+    padding: 30vh 5vw 0 5vw;
+    color: white; }
+    #innercontent h1 {
+      font-size: 80px; }
+    #innercontent p {
+      font-size: 48px; }
+    #innercontent button {
+      font-size: 36px; } }
 #course_content {
   background: lavender;
   color: #1A1B1F; }
   #course_content img {
-    width: 200px; }
+    width: 100px; }
   #course_content .row {
     max-width: 1200px;
     margin: auto; }
   #course_content .btn {
-    font-size: 24px; }
+    font-size: 3vw; }
 
+@media screen and (min-width: 768px) {
+  #course_content .btn {
+    font-size: 24px; }
+  #course_content img {
+    width: 200px; } }
 #course_details {
   background: #1A1B1F url("../img/news5.jpg") no-repeat center center;
   background-size: cover;
@@ -65,7 +119,7 @@ body {
   font-size: 20px; }
   #course_details img {
     width: 50px;
-    height: 60px; }
+    height: 50px; }
   #course_details ul {
     list-style: none;
     width: 100%;
@@ -251,25 +305,26 @@ footer {
   color: lavender; }
 
 body {
-  min-width: 320px; }
+  min-width: 320px;
+  overflow-x: hidden; }
 
 p, a {
-  font-size: 24px; }
+  font-size: 3vw; }
 
 h1 {
-  font-size: 56px; }
+  font-size: 6vw; }
 
 h2 {
-  font-size: 48px; }
+  font-size: 5.5vw; }
 
 h3 {
-  font-size: 42px; }
+  font-size: 4.5vw; }
 
 h4 {
-  font-size: 36px; }
+  font-size: 4vw; }
 
 h5 {
-  font-size: 30px; }
+  font-size: 3.5vw; }
 
 a {
   color: grey; }
@@ -292,22 +347,6 @@ hr {
   margin-left: 15px;
   margin-bottom: 15px; }
 
-.text-light {
-  color: lavender !important; }
-
-.text-dark {
-  color: #1A1B1F !important; }
-
-.bg-light {
-  background: lavender !important; }
-
-.bg-dark {
-  background: #1A1B1F !important; }
-
-.white {
-  color: lavender;
-  text-shadow: 1px 1px 1px #1A1B1F, -1px -1px 1px #1A1B1F, 0 0 5px #1A1B1F; }
-
 nav .active {
   color: red !important; }
 
@@ -317,20 +356,26 @@ button:hover {
 .nowrap {
   white-space: nowrap; }
 
-.btn-outline-dark {
-  color: #1A1B1F;
-  background: none;
-  border-color: #1A1B1F; }
-  .btn-outline-dark:hover {
-    color: lavender;
-    background: #1A1B1F; }
+@media screen and (min-width: 768px) {
+  p, a {
+    font-size: 24px; }
 
-.btn-outline-light {
-  color: lavender;
-  background: #1A1B1F;
-  border-color: lavender; }
-  .btn-outline-light:hover {
-    color: #1A1B1F;
-    background: lavender; }
+  h1 {
+    font-size: 56px; }
+
+  h2 {
+    font-size: 48px; }
+
+  h3 {
+    font-size: 42px; }
+
+  h4 {
+    font-size: 36px; }
+
+  h5 {
+    font-size: 30px; } }
+@media screen and (max-width: 320px) {
+  body {
+    overflow-x: auto; } }
 
 /*# sourceMappingURL=style.css.map */
