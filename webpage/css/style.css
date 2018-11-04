@@ -38,6 +38,7 @@ body {
     background: lavender; }
 
 #mainNav {
+  max-width: 100vw;
   background: #1A1B1F; }
   #mainNav a {
     color: grey;
